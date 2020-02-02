@@ -1,8 +1,7 @@
 def prime?(num) 
   puts num
   if num <= 1
-    puts'im hitting'
-    false
+    return false
   end
   
   range = Array (2..num-1)
