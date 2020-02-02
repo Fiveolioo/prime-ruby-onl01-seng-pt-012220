@@ -1,4 +1,4 @@
 def prime?(num) 
-  range = 1...num
+  range = Array (1..num)
   puts range
 end
