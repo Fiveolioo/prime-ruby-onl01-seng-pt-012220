@@ -7,10 +7,10 @@ def prime?(num)
     end
   end
   true
-  range
-  # if range.detect{|i| num % i == 0} 
-  #   false
-  # else
-  #   true
-  # end
+  # range
+  # # if range.detect{|i| num % i == 0} 
+  # #   false
+  # # else
+  # #   true
+  # # end
 end
