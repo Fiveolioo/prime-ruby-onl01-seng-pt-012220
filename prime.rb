@@ -1,6 +1,6 @@
 def prime?(num) 
   range = Array (2..num)
-  if range.detect{|i| i !== num && num % i == 0} !== nil
+  if range.detect{|i| i !== num && num % i == 0} != nil
     false
   else
     true
