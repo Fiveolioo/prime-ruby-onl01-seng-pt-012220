@@ -1,4 +1,4 @@
 def prime?(num) 
   range = Array (2..num)
-  puts range
+  if range.detect{|i| i !== num && num 
 end
