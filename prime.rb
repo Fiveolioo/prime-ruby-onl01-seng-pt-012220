@@ -5,6 +5,7 @@ def prime?(num)
   end
   
   range = Array (2..num-1)
+  puts "range #{range}"
   range.each do |i|
     if num % i == 0
       false
