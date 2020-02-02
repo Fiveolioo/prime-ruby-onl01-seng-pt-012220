@@ -1,4 +1,5 @@
 def prime?(num) 
+  puts num
   if num <= 1
     false
   end
