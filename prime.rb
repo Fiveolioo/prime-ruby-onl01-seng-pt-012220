@@ -1,6 +1,7 @@
 def prime?(num) 
   puts num
   if num <= 1
+    puts'im hitting'
     false
   end
   
