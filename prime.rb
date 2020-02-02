@@ -1,3 +1,4 @@
 def prime?(num) 
-  puts num
+  range = 1...num
+  puts range
 end
