@@ -1,5 +1,8 @@
 def prime?(num) 
-  puts num
+  if num <= 1
+    false
+  end
+  
   range = Array (2..num-1)
   range.each do |i|
     if num % i == 0
